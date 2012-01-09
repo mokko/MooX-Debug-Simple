@@ -44,4 +44,4 @@ sub debug {
 	carp "$msg\n" if ( $self->debugging && $self->debugging > 0 );
 }
 
-42;
+1;
