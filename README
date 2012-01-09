@@ -1,0 +1,33 @@
+NAME
+    MooX::Debug::Simple - a simple debug method to print to STDERR
+
+VERSION
+    version 0.01
+
+  SYNOPSIS
+    package Object; use Moo; with('MooX::Debug::Simple'); #inherit method
+    debug
+
+            sub do {
+                    my $self=shift;
+                    $self->debug ("msg");
+            }
+    1;
+
+    #elsewhere my $obj=new Object (debugging=>1); $obj->do; #prints
+
+            $obj=new Object (debugging=>0);
+            $obj->do; #does not print
+
+    #using setter/getter $obj->debugging(1); #turn debugging messages on
+    $obj->debugging(0); #turn debugging messages off
+
+AUTHOR
+    Maurice Mengel <mauricemengel@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Maurice Mengel.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

@@ -1,0 +1,13 @@
+INSTALL
+LICENSE
+MANIFEST
+META.json
+Makefile.PL
+README
+lib/MooX/Debug/Simple.pm
+t/00-load.t
+t/01-testObject.t
+t/02-new.t
+t/lib/testObject.pm
+t/release-pod-syntax.t
+t/release-test-version.t

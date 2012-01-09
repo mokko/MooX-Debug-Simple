@@ -1,0 +1,53 @@
+{
+   "abstract" : "a simple debug method to print to STDERR",
+   "author" : [
+      "Maurice Mengel <mauricemengel@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112621",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "MooX-Debug-Simple",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : 0,
+            "Moo::Role" : 0,
+            "strict" : 0,
+            "warnings" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "FindBin" : 0,
+            "Moo" : 0,
+            "Test::More" : 0,
+            "perl" : "5.006"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=MooX-Debug-Simple"
+      },
+      "homepage" : "https://github.com/mokko/MooX-Debug-Simple/wiki",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/mokko/MooX-Debug-Simple.git",
+         "web" : "https://github.com/mokko/MooX-Debug-Simple"
+      }
+   },
+   "version" : "0.01"
+}
+
